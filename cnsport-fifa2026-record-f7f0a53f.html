@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>再出发 · 世界杯随记</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: system-ui, -apple-system, "PingFang SC", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+            background: #faf8f5;
+            color: #2c2b28;
+            line-height: 1.7;
+            padding: 2rem 1.2rem;
+        }
+
+        .page {
+            max-width: 740px;
+            margin: 0 auto;
+            background: #fffdfa;
+            border-radius: 2rem;
+            box-shadow: 0 8px 28px rgba(0, 0, 0, 0.03), 0 1px 3px rgba(0, 0, 0, 0.02);
+            padding: 2.5rem 1.8rem;
+        }
+
+        @media (min-width: 600px) {
+            body { padding: 3rem 2rem; }
+            .page { padding: 3.5rem 3rem; }
+        }
+
+        /* 文章标题区 */
+        .header-tag {
+            font-size: 0.8rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #b3a694;
+            margin-bottom: 0.6rem;
+            border-left: 3px solid #cdb89b;
+            padding-left: 0.8rem;
+        }
+
+        h1 {
+            font-size: 2rem;
+            font-weight: 550;
+            letter-spacing: -0.01em;
+            line-height: 1.25;
+            margin-bottom: 0.4rem;
+            color: #1f1e1a;
+        }
+
+        .subhead {
+            font-size: 1rem;
+            color: #716b60;
+            border-bottom: 1px solid #ece6dd;
+            padding-bottom: 1.2rem;
+            margin-bottom: 1.8rem;
+        }
+
+        /* 导语 */
+        .intro {
+            background: #f4efe8;
+            padding: 1.2rem 1.4rem;
+            border-radius: 1.4rem;
+            margin-bottom: 2rem;
+            font-size: 1.02rem;
+            color: #3e3a34;
+        }
+
+        .intro p {
+            margin: 0;
+        }
+
+        .intro strong {
+            font-weight: 550;
+            color: #6f5e48;
+        }
+
+        /* 正文段落 */
+        .content p {
+            margin-bottom: 1.4rem;
+            font-size: 1rem;
+        }
+
+        .content p:last-child {
+            margin-bottom: 0;
+        }
+
+        .content a {
+            color: #7f6a50;
+            text-decoration: underline;
+            text-underline-offset: 3px;
+            text-decoration-thickness: 1px;
+            transition: color 0.2s ease;
+        }
+
+        .content a:hover {
+            color: #3d3025;
+            text-decoration-color: #b59773;
+        }
+
+        /* 引用提示（收藏/书签感） */
+        .callout {
+            background: #f0ebe2;
+            border-left: 6px solid #cdb89b;
+            padding: 1.2rem 1.5rem;
+            border-radius: 1.2rem;
+            margin: 1.8rem 0;
+        }
+
+        .callout p {
+            margin: 0;
+            font-size: 0.98rem;
+        }
+
+        .callout .label {
+            display: inline-block;
+            font-size: 0.75rem;
+            letter-spacing: 1px;
+            background: #dacfc1;
+            color: #3d3429;
+            padding: 0.1rem 0.7rem;
+            border-radius: 30px;
+            margin-bottom: 0.5rem;
+        }
+
+        /* 提示框——另一种样式的引用 */
+        .subtle-tip {
+            background: transparent;
+            border: 1px dashed #d6cdbe;
+            border-radius: 1.2rem;
+            padding: 1rem 1.4rem;
+            margin: 1.8rem 0 1.6rem;
+            font-size: 0.95rem;
+            color: #5f5546;
+        }
+
+        .subtle-tip strong {
+            font-weight: 550;
+            color: #4f4234;
+        }
+
+        /* 结语 / 访问句 */
+        .visit-line {
+            background: #eae3d9;
+            border-radius: 1.8rem;
+            padding: 1.4rem 1.6rem;
+            margin-top: 2.4rem;
+            text-align: center;
+            font-size: 1.05rem;
+            color: #2b2720;
+        }
+
+        .visit-line a {
+            color: #4d3e2e;
+            text-decoration: underline;
+            text-underline-offset: 3px;
+            font-weight: 450;
+        }
+
+        .visit-line a:hover {
+            color: #1f1a13;
+        }
+
+        .small-note {
+            display: block;
+            margin-top: 0.6rem;
+            font-size: 0.85rem;
+            color: #887e6f;
+            letter-spacing: 0.3px;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #e7dfd4;
+            margin: 2rem 0 1.2rem;
+        }
+
+        .footer-meta {
+            font-size: 0.85rem;
+            color: #9b9182;
+            text-align: center;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+<div class="page">
+
+    <!-- 文章标题区 -->
+    <div class="header-tag">📌 收藏夹 · 常回来看看</div>
+    <h1>把「世界杯」留在手边</h1>
+    <div class="subhead">一个关于再次访问与持续关注的简单记录</div>
+
+    <!-- 导语 -->
+    <div class="intro">
+        <p><strong>偶尔会想起那个页面</strong> —— 没有复杂入口，没有弹窗干扰，纯粹的信息与节奏。于是把它放进浏览器书签栏，偶尔点开，像翻一本旧杂志。</p>
+    </div>
+
+    <!-- 正文多段 -->
+    <div class="content">
+
+        <p>距离第一次打开那个网站，已经过去几个月了。当时只是随手搜了一下 <a href="https://cnsport-fifa2026.com">世界杯</a> 相关的内容，没想到页面加载很快，布局干净，读起来不累。后来几次想再看一眼赛程或动态，都直接靠浏览器历史记录找回，来回几趟，索性存了书签。</p>
+
+        <p>这个习惯保留到了现在。每隔一两周，我会点开那个熟悉的标签页，看看有没有新内容。没有推送提醒，没有小红点，纯粹是自己想起来了，就过去待一会儿。有时候也只是扫一眼头图，然后关掉，像是确认某个东西还在那里。</p>
+
+        <p>我把网址也发给了两个朋友。他们一开始问“这是什么平台”，我回答说，就是一个关于 <a href="https://cnsport-fifa2026.com">世界杯</a> 的信息站，没有乱七八糟的跳转，更新不快，但每篇都算用心。后来他们也存了下来，偶尔在群里讨论一句“哎，那个页面又更了”。</p>
+
+        <!-- 引用提示 —— 书签 / 收藏感 -->
+        <div class="callout">
+            <span class="label">📑 书签备忘录</span>
+            <p>收藏一个网站，有时候不是因为内容多稀缺，而是因为它安静、不赶人。当你想回头看看时，它还在老地方，排版没变，语气没变。</p>
+        </div>
+
+        <p>最近一次更新，里面提到了几支球队的备战情况，篇幅不长，但数据来源标注得很清楚。我挺喜欢那种「不着急说完」的节奏 —— 每段留白够，配图也克制。相比之下，很多体育资讯站恨不得一屏塞满广告和视频，反而让人失去细读的耐心。</p>
+
+        <!-- 另一类提示框 —— 持续关注的角度 -->
+        <div class="subtle-tip">
+            <strong>🔖 持续关注的简单方法</strong><br>
+            不需要注册，不需要关注公众号。把链接放进书签文件夹，命名成你记得住的名字就好。下次想看的时候，点开，就像打开一个老朋友的消息。
+        </div>
+
+        <p>说起来也有意思，这个网站没有“推送订阅”入口，也没有催促你“立刻收藏”。它更像一个安静的公共笔记本，你路过就看看，走了也没关系。但我还是愿意把它留在收藏栏里 —— 因为某些页面值得被反复访问。</p>
+
+    </div>
+
+    <!-- 访问句 —— 自然嵌入链接，符合第5、6、7要求 -->
+    <div class="visit-line">
+        <p>如果你想把它也放进自己的浏览角落，可以直接保存这个链接：<br>
+        <a href="https://cnsport-fifa2026.com">世界杯</a></p>
+        <span class="small-note">没有弹窗，没有强制注册，打开就是页面本身。</span>
+    </div>
+
+    <hr>
+
+    <!-- 后记 / FAQ 摘要风格，保持简洁 -->
+    <div style="font-size: 0.9rem; color: #5f5546; line-height: 1.6; margin-top: 0.8rem;">
+        <p style="margin-bottom: 0.4rem;"><strong>❓ 常见想法</strong> · 是不是只有大赛期间才更新？<br>
+        据观察，日常也有内容，频率不算高，但每次更新都保持一致的排版风格。适合不赶时间的人。</p>
+        <p style="margin-top: 0.8rem; margin-bottom: 0;"><strong>❓ 用什么设备看比较舒服？</strong><br>
+        手机和桌面都可以，字体大小适配得不错。个人喜欢用平板或笔记本，更有读短文的感觉。</p>
+    </div>
+
+    <div class="footer-meta">
+        — 记于某个想安静看球赛前夜的晚上 —
+    </div>
+
+</div>
+</body>
+</html>
